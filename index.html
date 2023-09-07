@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS Letter SignUp with success message</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+    <div class="container">
+      <div class="left">
+        <h1>Stay updated!</h1>
+        <p>
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <h4>Product discovery and building what matters</h4>
+        </div>
+
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <h4>Measuring to ensure updates are a succes</h4>
+        </div>
+
+        <div class="list">
+          <img src="./assets/images/icon-list.svg" alt="">
+          <h4>And much more!</h4>
+        </div>
+
+        <div>
+          <div class="emailText">
+            <h3>Email address:</h3>
+            <h5 class="errorMsg"></h5>
+          </div>
+          
+          <div class="inputDiv">
+            <input type="text" placeholder="email@company.com" mailIp>
+          </div>
+        </div>
+
+        <div class="subscribe">
+          <h2>Subscribe to Monthly news letter</h2>
+        </div>
+      </div>
+      <picture>
+        <source media="(min-width:781px)" srcset="assets\images\illustration-sign-up-desktop.svg" >
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="" class="right">
+      </picture>
+      
+    </div>
+    <div class="thanksContainer">
+      <img src="./assets/images/icon-list.svg" alt="" class="thanksImg">
+      <h1>Thanks for subscribing</h1>
+      <p class="para">A conformational mail has been sent to <span mailText>mail@gmail.com.</span>. Please open it and click the link to confirm your subscription.</p>
+      <div class="dismiss"> Dismiss Message</div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
